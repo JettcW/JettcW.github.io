@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<style>
+	body{
+		background-color: gray;
+	}	
+	
+	a:link{
+		color: cyan;
+	}
+	
+	a:visited{
+		color: aquamarine;
+	}
+</style>
+<head>
+<meta charset="utf-8">
+<title>sampleCode</title>
+<link rel="stylesheet" href="sampleCode.css">
+</head>
+
+<body>
+	<h1>Sample Code</h1>
+	<p>This is a python script I used for the <b>List and Loops challenge</b> in my IT1000 class.</p>
+	<div class="box">
+		<pre>
+		<code>
+ values&nbsp;=&nbsp;[6,&nbsp;5,&nbsp;3,&nbsp;8,&nbsp;4,&nbsp;2,&nbsp;5,&nbsp;4,&nbsp;11,&nbsp;43,&nbsp;1,&nbsp;17,&nbsp;27,&nbsp;90,&nbsp;77,&nbsp;62,&nbsp;51,&nbsp;47,&nbsp;82,&nbsp;86,&nbsp;20]
+		
+ amount_of_nums&nbsp;=&nbsp;len(values)
+ print(f&quot;The&nbsp;list&nbsp;has&nbsp;{amount_of_nums}&nbsp;numbers\n&quot;)
+		
+ values_sum&nbsp;=&nbsp;sum(values)
+ print(f&quot;The&nbsp;sum&nbsp;of&nbsp;the&nbsp;values&nbsp;in&nbsp;the&nbsp;list&nbsp;is&nbsp;{values_sum}\n&quot;)
+		
+ average&nbsp;=&nbsp;values_sum&nbsp;/&nbsp;amount_of_nums
+ print(f&quot;The&nbsp;average&nbsp;of&nbsp;the&nbsp;values&nbsp;in&nbsp;the&nbsp;list&nbsp;is&nbsp;{average}\n&quot;)
+
+ print(&quot;Printing&nbsp;every&nbsp;value&nbsp;in&nbsp;the&nbsp;list&nbsp;with&nbsp;it&#39;s&nbsp;index&quot;)
+
+ index&nbsp;=&nbsp;0
+ count&nbsp;=&nbsp;&#45;1
+ item&nbsp;=&nbsp;&#45;1
+ while&nbsp;index&nbsp;&lt;&nbsp;amount_of_nums:
+ &nbsp;&nbsp;&nbsp;&nbsp;count&nbsp;+=&nbsp;1
+ &nbsp;&nbsp;&nbsp;&nbsp;item&nbsp;+=&nbsp;1
+ &nbsp;&nbsp;&nbsp;&nbsp;print(f&quot;Item&nbsp;{item}:&nbsp;{values[count]}&quot;)
+ &nbsp;&nbsp;&nbsp;&nbsp;index&nbsp;+=&nbsp;1
+
+ print(&quot;\nPrinting&nbsp;every&nbsp;other&nbsp;value&nbsp;in&nbsp;the&nbsp;list&nbsp;with&nbsp;it&#39;s&nbsp;index&quot;)
+
+ for&nbsp;x&nbsp;in&nbsp;range(0,&nbsp;21,&nbsp;2):
+ &nbsp;&nbsp;&nbsp;&nbsp;print(f&quot;Item&nbsp;{x}:&nbsp;{values[x]}&quot;)
+ &nbsp;&nbsp;&nbsp;
+ print(&quot;\nBonus:&nbsp;finding&nbsp;whether&nbsp;the&nbsp;number&nbsp;is&nbsp;even&nbsp;or&nbsp;odd&quot;)
+
+ item&nbsp;=&nbsp;&#45;1
+ for&nbsp;i&nbsp;in&nbsp;values:
+ &nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(i&nbsp;%&nbsp;2)&nbsp;==&nbsp;0:
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f&quot;{i}&nbsp;is&nbsp;even&quot;)
+ &nbsp;&nbsp;&nbsp;&nbsp;else:
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(f&quot;{i}&nbsp;is&nbsp;odd&quot;)
+	</code>
+	</pre>
+	</div>
+	<a href="index.html">Back</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+div{
+	box-sizing: border-box;
+	width: 700px;
+	height: auto;
+	background: #A3A2A2;
+}
+
+code{
+	color: black;
+}
+
+a:link{
+	color: cyan;
+}
+
+a:visited{
+	color: aquamarine;
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+th {
+	border: 1px solid black;
+}
+
+body{
+	background-color: gray;
+}
+
+a:link{
+	color: cyan;
+}
+
+a:visited{
+	color: aquamarine;
+}
